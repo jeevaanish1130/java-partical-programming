@@ -6,7 +6,7 @@ ButtonExample()
   
 Button btn = new Button("Click Me");
 
-  btn.setBounds(100, 80, 100, 40);
+btn.setBounds(100, 80, 100, 40);
 add(btn);
 setTitle("Button Example");
 setSize(300, 200);

@@ -6,16 +6,16 @@ public static void main(String[] args)
 BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 try
 {
-// 1. ArithmeticExceptionSystem.out.println("Enter two numbers to divide:");
+
 int a = Integer.parseInt(reader.readLine());
 int b = Integer.parseInt(reader.readLine());
 System.out.println("Result of division: " + (a / b));
-// 2. ArrayIndexOutOfBoundsException
+
 int[] numbers = {1, 2, 3};
 System.out.println("Enter the index of the array to access:");
 int index = Integer.parseInt(reader.readLine());
 System.out.println("Element at index " + index + ": " + numbers[index]);
-// 3. NullPointerException
+
 String str = null;
 System.out.println("Length of the string: " + str.length());
 }

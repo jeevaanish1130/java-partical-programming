@@ -5,26 +5,26 @@ public class ButtonEventExample extends Frame implements ActionListener
 Button btnClick, btnReset;
 ButtonEventExample()
 {
-// Create Label
+
 lbl = new Label("Hello World");
 lbl.setBounds(110, 60, 150, 30);
-// Create Buttons
+
 btnClick = new Button("Click Me");
 btnClick.setBounds(60, 120, 80, 30);
 btnReset = new Button("Reset");
 btnReset.setBounds(170, 120, 80, 30);
-// Add Components
+
 add(lbl);
 add(btnClick);
 add(btnReset);
-// Register ActionListener
+
 btnClick.addActionListener(this);
 btnReset.addActionListener(this);
-// Frame Properties
+
 setTitle("Button Event Example");
 setSize(320, 220);
 setLayout(null);
-setVisible(true);// Close Window
+setVisible(true);
 addWindowListener(new WindowAdapter()
 {
 public void windowClosing(WindowEvent e)
@@ -34,7 +34,7 @@ System.exit(0);
 }
 });
 }
-// Handle Button Click Events
+
 public void actionPerformed(ActionEvent e)
 {
 if (e.getSource() == btnClick)

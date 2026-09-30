@@ -1,4 +1,4 @@
-// Save the program as WeekName.java
+
 import java.util.Scanner;
 public class WeekName
 {

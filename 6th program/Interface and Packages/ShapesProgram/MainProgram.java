@@ -9,7 +9,7 @@ public class MainProgram {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Circle operations
+        
         System.out.print("Enter the radius of the circle: ");
         double radius = scanner.nextDouble();
 
@@ -18,7 +18,7 @@ public class MainProgram {
         System.out.println("Circle Area: " + circle.calculateArea());
         System.out.println("Circle Perimeter: " + circle.calculatePerimeter());
 
-        // Rectangle operations
+        
         System.out.print("\nEnter the length of the rectangle: ");
         double length = scanner.nextDouble();
 

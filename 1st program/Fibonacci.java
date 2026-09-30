@@ -11,7 +11,7 @@ int firstTerm = 0, secondTerm = 1;
 System.out.println("Fibonacci Series till " + NumOfTerms + " terms:");
 for(int i = 1; i <= NumOfTerms; i++)
 {System.out.print(firstTerm + ",");
-// compute the next term
+
 int nextTerm = firstTerm + secondTerm;
 firstTerm = secondTerm;
 secondTerm = nextTerm;

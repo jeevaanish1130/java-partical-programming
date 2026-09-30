@@ -8,7 +8,7 @@ for (int i = 1; i <= 10; i++)
 System.out.println("Thread 1: " + i);
 try
 {
-Thread.sleep(200); // Simulate delay
+Thread.sleep(200); 
 }
 catch (InterruptedException e)
 {
@@ -32,7 +32,7 @@ for (int num : numbers)
 sum += num;
 try
 {
-Thread.sleep(400); // Simulate processing time
+Thread.sleep(400); 
 }
 catch (InterruptedException e)
 {
@@ -51,7 +51,7 @@ for (int i = 1; i <= 5; i++)
 System.out.println("Thread 3: This is a multithreading example.");
 try
 {
-Thread.sleep(500); // Simulate delay
+Thread.sleep(500); 
 }
 catch (InterruptedException e)
 {
